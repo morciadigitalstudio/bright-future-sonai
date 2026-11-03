@@ -3,44 +3,109 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bright Future Coaching Centre | Kalibari Road, Sonai - 788119</title>
+<title>Bright Future Coaching Centre - Best Coaching in Sonai, Cachar</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<style>h1,h2,h3{font-family:'Poppins',sans-serif}</style>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>body{font-family:'Poppins',sans-serif}html{scroll-behavior:smooth}</style>
 </head>
-<body class="bg-[#F5F7FB]">
-<header class="bg-white shadow-sm sticky top-0 z-50">
-<div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-<div class="flex items-center gap-2">
-<div class="w-10 h-10 bg-[#0A4DA1] rounded-full flex items-center justify-center text-white font-bold text-lg">BF</div>
-<div><h3 class="font-bold text-[#0A4DA1] leading-none">Bright Future</h3><p class="text-xs text-gray-500">Kalibari Road, Sonai 788119</p></div>
-</div>
-<a href="tel:+916003549471" class="bg-[#0A4DA1] text-white px-4 py-2 rounded-full text-sm font-bold">Call Now</a>
-</div>
-</header>
-<section class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-8 items-center">
-<div>
-<div class="bg-yellow-100 text-yellow-800 inline-block px-3 py-1 rounded-full text-xs font-bold mb-3">Admissions Open 2026-27</div>
-<h1 class="text-4xl font-bold text-[#0A4DA1] leading-tight">Sonai Ka No.1 Coaching <span class="text-yellow-500">Class IV - XII</span></h1>
-<p class="mt-3 text-gray-600">SEBA, AHSEC & CBSE | Kalibari Road, Sonai</p>
-<div class="mt-5 flex gap-3">
-<a href="https://wa.me/916003549471" class="bg-green-500 text-white px-6 py-3 rounded-full font-bold">WhatsApp Karo</a>
-<a href="#form" class="border-2 border-[#0A4DA1] text-[#0A4DA1] px-6 py-3 rounded-full font-bold">Form Bharo</a>
-</div>
-</div>
-<div class="bg-white p-4 rounded-2xl shadow-lg">
-<img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600" class="rounded-xl w-full">
-</div>
+<body class="bg-gray-50">
+
+<!-- NAVBAR -->
+<nav class="bg-white shadow-md sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-blue-700">BRIGHT FUTURE</h1>
+    <div class="hidden md:flex gap-6 font-semibold text-sm">
+      <a href="#home" class="hover:text-blue-600">Home</a>
+      <a href="#about" class="hover:text-blue-600">About</a>
+      <a href="#courses" class="hover:text-blue-600">Courses</a>
+      <a href="#fees" class="hover:text-blue-600">Fees</a>
+      <a href="#results" class="hover:text-blue-600">Results</a>
+      <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-full">Contact</a>
+    </div>
+    <a href="#contact" class="md:hidden bg-blue-600 text-white px-3 py-1 rounded-full text-sm">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="bg-gradient-to-br from-blue-700 to-indigo-800 text-white py-16 px-4">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <span class="bg-yellow-400 text-black px-3 py-1 rounded-full text-xs font-bold">ADMISSION OPEN 2026-27</span>
+      <h2 class="text-4xl md:text-5xl font-bold mt-4 leading-tight">Sonai's No.1<br>Coaching Centre</h2>
+      <p class="mt-4 text-blue-100">Class 6 to 12 (SEBA / AHSEC) | Science & Arts | NEET / JEE Foundation | Kalibari Road, Sonai</p>
+      <div class="mt-6 flex gap-3">
+        <a href="#courses" class="bg-white text-blue-700 px-6 py-3 rounded-full font-bold">View Courses</a>
+        <a href="https://wa.me/916003549471" class="bg-green-500 px-6 py-3 rounded-full font-bold">WhatsApp</a>
+      </div>
+    </div>
+    <div class="bg-white text-gray-800 p-6 rounded-2xl shadow-2xl">
+      <h3 class="font-bold text-lg">Free Demo Class Book Karo</h3>
+      <p class="text-sm text-gray-500 mt-1">Form bharo, hum call karenge</p>
+      <input id="n" placeholder="Student Name" class="w-full mt-4 p-3 border rounded-lg">
+      <input id="p" placeholder="Mobile Number" class="w-full mt-3 p-3 border rounded-lg">
+      <select class="w-full mt-3 p-3 border rounded-lg"><option>Select Class</option><option>Class 6-8</option><option>Class 9-10 SEBA</option><option>Class 11-12 Science</option><option>Class 11-12 Arts</option></select>
+      <button onclick="sendWA()" class="w-full mt-4 bg-blue-600 text-white py-3 rounded-lg font-bold">Submit on WhatsApp</button>
+    </div>
+  </div>
 </section>
-<section id="form" class="bg-[#0A4DA1] py-10">
-<div class="max-w-6xl mx-auto px-4">
-<h2 class="text-3xl font-bold text-white">Free Demo Class Book Karo</h2>
-<form class="bg-white p-6 rounded-2xl shadow-xl mt-5 max-w-md">
-<input type="text" placeholder="Student Ka Naam" class="w-full border p-3 rounded-lg mb-3">
-<input type="tel" placeholder="Phone Number" class="w-full border p-3 rounded-lg mb-3">
-<button class="w-full bg-[#FFC107] text-black font-bold py-3 rounded-lg">Submit - Call Karo</button>
-</form>
-</div>
+
+<!-- ABOUT -->
+<section id="about" class="py-14 px-4 max-w-7xl mx-auto">
+  <h3 class="text-3xl font-bold text-center">Why Bright Future?</h3>
+  <div class="grid md:grid-cols-3 gap-6 mt-8">
+    <div class="bg-white p-6 rounded-xl shadow"><h4 class="font-bold">✅ Experienced Teachers</h4><p class="text-sm text-gray-600 mt-2">10+ Years ka experience, har subject ke specialist teachers.</p></div>
+    <div class="bg-white p-6 rounded-xl shadow"><h4 class="font-bold">✅ Small Batches</h4><p class="text-sm text-gray-600 mt-2">Max 25 students per batch, har bacche pe personal dhyan.</p></div>
+    <div class="bg-white p-6 rounded-xl shadow"><h4 class="font-bold">✅ Weekly Test & Doubt Class</h4><p class="text-sm text-gray-600 mt-2">Har Sunday Mock Test aur daily doubt clearing session.</p></div>
+  </div>
 </section>
+
+<!-- COURSES -->
+<section id="courses" class="bg-white py-14 px-4">
+  <div class="max-w-7xl mx-auto">
+    <h3 class="text-3xl font-bold text-center">Our Courses</h3>
+    <div class="grid md:grid-cols-3 gap-6 mt-8">
+      <div class="border-2 border-blue-100 p-6 rounded-2xl"><h4 class="font-bold text-blue-700">Class 6 - 8 (Foundation)</h4><p class="text-sm mt-2">All Subjects | SEBA Pattern | Strong Base Building</p><p class="font-bold mt-3">Fees: ₹800/month</p></div>
+      <div class="border-2 border-blue-600 bg-blue-50 p-6 rounded-2xl"><h4 class="font-bold text-blue-700">Class 9 - 10 (SEBA) ⭐ Most Popular</h4><p class="text-sm mt-2">Science, Maths, English, SST | Board Special Preparation</p><p class="font-bold mt-3">Fees: ₹1200/month</p></div>
+      <div class="border-2 border-blue-100 p-6 rounded-2xl"><h4 class="font-bold text-blue-700">Class 11 - 12 Science & Arts</h4><p class="text-sm mt-2">Physics, Chemistry, Biology, Maths | AHSEC + NEET/JEE Foundation</p><p class="font-bold mt-3">Fees: ₹1500/month</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FEES & RESULTS -->
+<section id="fees" class="py-14 px-4 max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
+  <div id="results">
+    <h3 class="text-2xl font-bold">Our Results 2025</h3>
+    <div class="mt-4 space-y-3">
+      <div class="bg-white p-4 rounded-lg shadow flex justify-between"><span>Rahul Laskar - HSLC 92%</span><span class="font-bold text-green-600">1st Div</span></div>
+      <div class="bg-white p-4 rounded-lg shadow flex justify-between"><span>Anisha Begum - HS 88% Science</span><span class="font-bold text-green-600">Star</span></div>
+      <div class="bg-white p-4 rounded-lg shadow flex justify-between"><span>95% Students Passed with 1st Division</span><span>🏆</span></div>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-2xl font-bold">Timing & Location</h3>
+    <div class="bg-white p-6 rounded-xl shadow mt-4">
+      <p><b>Address:</b> Kalibari Road, Near Sonai College, Sonai, Cachar, Assam - 788119</p>
+      <p class="mt-2"><b>Timing:</b> Morning 7AM - 12PM, Evening 3PM - 8PM</p>
+      <p class="mt-2"><b>Contact:</b> 6003549471</p>
+      <a href="https://maps.google.com/?q=Sonai+Kalibari+Road" class="inline-block mt-4 bg-black text-white px-5 py-2 rounded-full">Open in Google Maps</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" class="bg-black text-white py-8 px-4 text-center">
+  <h3 class="text-xl font-bold">Bright Future Coaching Centre, Sonai</h3>
+  <p class="text-sm text-gray-400 mt-2">© 2026 All Rights Reserved | Made for Sonai Students</p>
+  <a href="https://wa.me/916003549471" class="inline-block mt-4 bg-green-500 px-6 py-2 rounded-full font-bold">Chat on WhatsApp</a>
+</footer>
+
+<script>
+function sendWA(){
+ let name=document.getElementById('n').value;
+ let phone=document.getElementById('p').value;
+ let msg=`Hello Bright Future! Admission Enquiry:%0AName: ${name}%0APhone: ${phone}%0AWebsite se aaya hu`;
+ window.open(`https://wa.me/916003549471?text=${msg}`,'_blank');
+}
+</script>
 </body>
 </html>
